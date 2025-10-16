@@ -3,10 +3,11 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import StateHook from './stateHook'
+import ContextHook from './contextHook'
 
 const App = () => {
   return(
-    <StateHook />
+    <ContextHook />
   )
 }
 
