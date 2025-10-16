@@ -4,10 +4,11 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import StateHook from './stateHook'
 import ContextHook from './contextHook'
+import UseEffect from './useEffect'
 
 const App = () => {
   return(
-    <ContextHook />
+    <UseEffect />
   )
 }
 
