@@ -5,10 +5,11 @@ import './App.css'
 import StateHook from './stateHook'
 import ContextHook from './contextHook'
 import UseEffect from './useEffect'
+import UseMemo from './useMemo'
 
 const App = () => {
   return(
-    <UseEffect />
+    <UseMemo />
   )
 }
 
