@@ -6,10 +6,12 @@ import StateHook from './stateHook'
 import ContextHook from './contextHook'
 import UseEffect from './useEffect'
 import UseMemo from './useMemo'
+import FirstExample from './useContext'
+import Example from './useContext'
 
 const App = () => {
   return(
-    <UseMemo />
+    <Example/>
   )
 }
 
