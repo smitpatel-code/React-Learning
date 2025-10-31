@@ -9,10 +9,11 @@ import UseMemo from './useMemo'
 import FirstExample from './useContext'
 import Example from './useContext'
 import ClickCapture from './DOM_Events/onClickCapture'
+import OnDoubleClick from './DOM_Events/onDoubleClickHandler'
 
 const App = () => {
   return(
-    <ClickCapture/>
+    <OnDoubleClick/>
   )
 }
 
