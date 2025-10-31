@@ -8,10 +8,11 @@ import UseEffect from './useEffect'
 import UseMemo from './useMemo'
 import FirstExample from './useContext'
 import Example from './useContext'
+import ClickCapture from './DOM_Events/onClickCapture'
 
 const App = () => {
   return(
-    <Example/>
+    <ClickCapture/>
   )
 }
 
